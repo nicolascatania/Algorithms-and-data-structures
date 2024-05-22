@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1713382813 source:c:\users\laboratorios\desktop\coladinamica\main.c
+	"colaDinamica.h"
+	"simulacion35.h"
+
+1713379975 c:\users\laboratorios\desktop\coladinamica\coladinamica.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1713380294 source:c:\users\laboratorios\desktop\coladinamica\coladinamica.c
+	"colaDinamica.h"
+
+1713382802 source:c:\users\laboratorios\desktop\coladinamica\simulacion35.c
+	"simulacion35.h"
+
+1713382978 c:\users\laboratorios\desktop\coladinamica\simulacion35.h
+	"colaDinamica.h"
+	<time.h>
+
+1713464148 source:c:\users\nicol\downloads\coladinamica\coladinamica\coladinamica.c
+	"colaDinamica.h"
+
+1713465511 c:\users\nicol\downloads\coladinamica\coladinamica\coladinamica.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1713464148 source:c:\users\nicol\downloads\coladinamica\coladinamica\main.c
+	"colaDinamica.h"
+	"simulacion35.h"
+
+1713468751 c:\users\nicol\downloads\coladinamica\coladinamica\simulacion35.h
+	"colaDinamica.h"
+	<time.h>
+
+1713469336 source:c:\users\nicol\downloads\coladinamica\coladinamica\simulacion35.c
+	"simulacion35.h"
+
+1713550234 source:e:\users\usuario\desktop\college\algoritmos y estructuras de datos\dinamica\coladinamica\coladinamica\coladinamica.c
+	"colaDinamica.h"
+
+1713465511 e:\users\usuario\desktop\college\algoritmos y estructuras de datos\dinamica\coladinamica\coladinamica\coladinamica.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1713464148 source:e:\users\usuario\desktop\college\algoritmos y estructuras de datos\dinamica\coladinamica\coladinamica\main.c
+	"colaDinamica.h"
+	"simulacion35.h"
+
+1713468751 e:\users\usuario\desktop\college\algoritmos y estructuras de datos\dinamica\coladinamica\coladinamica\simulacion35.h
+	"colaDinamica.h"
+	<time.h>
+
+1713550068 source:e:\users\usuario\desktop\college\algoritmos y estructuras de datos\dinamica\coladinamica\coladinamica\simulacion35.c
+	"simulacion35.h"
+
+1713741202 source:c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\dinamica\coladinamica\coladinamica\coladinamica.c
+	"colaDinamica.h"
+
+1713741182 c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\dinamica\coladinamica\coladinamica\coladinamica.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1713741234 source:c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\dinamica\coladinamica\coladinamica\main.c
+	"colaDinamica.h"
+	"simulacion35.h"
+
+1713468751 c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\dinamica\coladinamica\coladinamica\simulacion35.h
+	"colaDinamica.h"
+	<time.h>
+
+1713741480 source:c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\dinamica\coladinamica\coladinamica\simulacion35.c
+	"simulacion35.h"
+
