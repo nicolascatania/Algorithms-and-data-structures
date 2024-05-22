@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1716236065 source:c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\dinamica\listadoble\testld.c
+	"testLD.h"
+	"productos.h"
+	"utilidades.h"
+
+1716235286 source:c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\dinamica\listadoble\utilidades.c
+	"utilidades.h"
+	"productos.h"
+
+1716234492 c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\dinamica\listadoble\utilidades.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1716235671 source:c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\dinamica\listadoble\main.c
+	"utilidades.h"
+	"listaDoble.h"
+	"testLD.h"
+	"productos.h"
+
+1716236022 c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\dinamica\listadoble\listadoble.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1716234578 c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\dinamica\listadoble\testld.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utilidades.h"
+	"listaDoble.h"
+
+1716236024 source:c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\dinamica\listadoble\listadoble.c
+	"listaDoble.h"
+
+1716236120 source:c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\dinamica\listadoble\productos.c
+	"productos.h"
+	"listaDoble.h"
+	"utilidades.h"
+
+1716236110 c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\dinamica\listadoble\productos.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"listaDoble.h"
+	"utilidades.h"
+
