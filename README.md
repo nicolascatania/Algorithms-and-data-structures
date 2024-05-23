@@ -9,3 +9,5 @@ Stack : simple and circualr.
 List  : double linked, simple linked, and simple linked circular.
 
 Binary tree: it'll be uploaded soon.
+
+Basic recursive functions: like binary search, reverse string, etc.
