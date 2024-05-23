@@ -869,3 +869,24 @@ void reduce(tLista* lista, void* resultado, void(*reduccion)(const void*, void*)
         lista = &(*lista)->sig;
     }
 }
+
+
+void showRecursiveList(tLista* pl, void (*show)(const void*, FILE*)){
+    if(!((*pl)->sig)){
+        show((*pl)->info, stdout);
+        return;
+    }
+
+    show((*pl)->info, stdout);
+    showRecursiveList(&(*pl)->sig, show);
+}
+
+void showRecursiveListBackwards(tLista* pl, void (*show)(const void*, FILE*)){
+    if(!((*pl)->sig)){
+        show((*pl)->info, stdout);
+        return;
+    }
+
+    showRecursiveListBackwards(&(*pl)->sig, show);
+    show((*pl)->info, stdout);
+}
