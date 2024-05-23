@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1716411155 source:c:\users\laboratorios\desktop\recursividadclase22-5\funcrec.c
+	"funRec.h"
+
+1716411199 c:\users\laboratorios\desktop\recursividadclase22-5\funrec.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1716411214 source:c:\users\laboratorios\desktop\recursividadclase22-5\main.c
+	"funRec.h"
+
+1716507298 source:c:\users\nicol\onedrive\escritorio\desktop\recursividadclase22-5\main.c
+	"funRec.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1716507658 c:\users\nicol\onedrive\escritorio\desktop\recursividadclase22-5\funrec.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1716507152 source:c:\users\nicol\onedrive\escritorio\desktop\recursividadclase22-5\funcrec.c
+	"funRec.h"
+
