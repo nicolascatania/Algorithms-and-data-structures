@@ -4,6 +4,7 @@
 #define ARCHIVOBIN "productos.bin"
 
 /*TEST DE LISTA DINAMICA*/
+void testRecursive();
 void testReduce();
 void testFilterPy();
 void testFilterC();
@@ -29,12 +30,27 @@ void acumulaEnteros(const void* info, void* resultado);
 int main()
 {
     generarLotePruebas();
-    testEliminarNUltimosNodos();
+    testRecursive();
 
     return 0;
 }
 
+void testRecursive()
+{
+    tLista list;
+    int n[]= {1,2,3,4,5,6,7,8,9,10},i;
+    for(i=0; i<sizeof(n)/sizeof(n[0]); i++)
+    {
+        ponerEnListaUltimo(&list,n + i, sizeof(int));
+    }
 
+    showRecursiveList(&list,mostrarEntero);
+
+    puts("NOW BACKWARDS");
+    showRecursiveListBackwards(&list, mostrarEntero);
+
+    vaciarLista(&list);
+}
 
 void testReduce()
 {
