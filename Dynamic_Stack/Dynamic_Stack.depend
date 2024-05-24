@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1716573024 source:c:\users\nicol\onedrive\escritorio\dynamic_stack\main.c
+	"dynamic_stack.h"
+
+1716572721 c:\users\nicol\onedrive\escritorio\dynamic_stack\dynamic_stack.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1716572731 source:c:\users\nicol\onedrive\escritorio\dynamic_stack\dynamic_stack.c
+	"dynamic_stack.h"
+
