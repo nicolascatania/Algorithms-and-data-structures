@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1716574828 source:c:\users\nicol\onedrive\escritorio\dynamic_queue\main.c
+	"dynamic_queue.h"
+
+1716574839 c:\users\nicol\onedrive\escritorio\dynamic_queue\dynamic_queue.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
