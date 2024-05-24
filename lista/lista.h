@@ -70,4 +70,8 @@ tLista filterPy(tLista*, void*, int(*cmp)(const void*, const void*));
 
 void reduce(tLista*, void*, void(*reduccion)(const void*, void*));
 
+void showRecursiveList(tLista* pl, void (*show)(const void*, FILE*));
+void showRecursiveListBackwards(tLista* pl, void (*show)(const void*, FILE*));
+
+
 #endif // LISTA_H_INCLUDED
