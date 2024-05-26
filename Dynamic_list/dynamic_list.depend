@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1716681436 source:c:\users\nicol\onedrive\escritorio\dynamic_list\main.c
+	"dynamic_list.h"
+
+1716678536 c:\users\nicol\onedrive\escritorio\dynamic_list\dynamic_list.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1716681321 source:c:\users\nicol\onedrive\escritorio\dynamic_list\dynamic_list.c
+	"dynamic_list.h"
+
