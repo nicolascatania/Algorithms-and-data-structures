@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1717020379 source:c:\users\nicol\onedrive\escritorio\dynamic_stack_circular\main.c
+	"circular_stack.h"
+
+1717019980 c:\users\nicol\onedrive\escritorio\dynamic_stack_circular\circular_stack.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1717020354 source:c:\users\nicol\onedrive\escritorio\dynamic_stack_circular\circualr_stack.c
+	"circular_stack.h"
+
