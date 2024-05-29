@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1717019530 source:c:\users\nicol\onedrive\escritorio\dynamic_queue_circular\main.c
+	"queue.h"
+
+1717018932 c:\users\nicol\onedrive\escritorio\dynamic_queue_circular\queue.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1717019342 source:c:\users\nicol\onedrive\escritorio\dynamic_queue_circular\queue.c
+	"queue.h"
+
