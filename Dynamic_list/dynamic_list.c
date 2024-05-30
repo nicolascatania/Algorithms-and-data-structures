@@ -404,4 +404,28 @@ void reduce(List* pl, void* result, void(*reduceFunction)(const void*, void*)){
     }
 }
 
-
+List* mapPy(List* l, void(*mapFunction)(void*, void*)){
+    List* result = (List*)malloc(sizeof(List*));
+    initializeList(result);
+    while(*l)
+    {
+        mapFunction((*l)->info, &(*l)->size_info);
+        pushLast(result, (*l)->info, (*l)->size_info);
+        l= &(*l)->next;
+    }
+    return result;
+}
+List* filterPy(const List* l,const void* filter_param, int (*filterFunction)(const void*, const void*))
+{
+    List* result = (List*)malloc(sizeof(List*));
+    initializeList(result);
+    while(*l)
+    {
+        if(!filterFunction((*l)->info, filter_param))
+        {
+            pushLast(result, (*l)->info, (*l)->size_info);
+        }
+        l= &(*l)->next;
+    }
+    return result;
+}
