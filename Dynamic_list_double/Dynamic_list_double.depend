@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1717020767 source:c:\users\nicol\onedrive\escritorio\dynamic_list_double\main.c
+	"double_list.h"
+
+1717022411 c:\users\nicol\onedrive\escritorio\dynamic_list_double\double_list.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1717094349 source:c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\data structures\dinamica\dynamic_list_double\main.c
+	"double_list.h"
+
+1717022411 c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\data structures\dinamica\dynamic_list_double\double_list.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1717094323 source:c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\data structures\dinamica\dynamic_list_double\double_list.c
+	"double_list.h"
+
