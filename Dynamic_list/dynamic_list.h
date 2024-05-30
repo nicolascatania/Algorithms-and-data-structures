@@ -45,4 +45,7 @@ int insert_at_position(List*, const void*, unsigned, int);
 void mapC(List*, void (*mapFunction)(void*));
 void filterC(List*, void*, int(*filterFunction)(const void*, const void*));
 void reduce(List*, void*, void(*reduceFunction)(const void*, void*));
+
+List* mapPy(List*, void(*mapFunction)(void*, void*));
+List* filterPy(const List*, const void*, int (*filterFunction)(const void*, const void*));
 #endif // DYNAMIC_LIST_H_INCLUDED
