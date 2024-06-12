@@ -203,29 +203,31 @@ Node* findMin(List* pl, int(*cmp)(const void*, const void*))
     return min;
 }
 
-int sortList(List* pl, int(*cmp)(const void*, const void*))
+void sortList(List* p, int(*cmp)(const void* a, const void* b))
 {
-    Node* aux = *pl, *min;
-    void* info;
-    unsigned tam;
-    if(!aux)
+    if(*p == NULL)
+        return;
+    List *first = p,*q;
+    Node *aux;
+
+    while((*p)->next)
     {
-        return 0;
-    }
-    while(aux->next)
-    {
-        if((min = findMin(&aux,cmp)) && min!=aux)
+        if(cmp((*p)->info,(*p)->next->info)>0)
         {
-            info = aux->info;
-            tam = aux->size_info;
-            aux->info = min->info;
-            aux->size_info = min->size_info;
-            min->info = info;
-            min->size_info = tam;
+            aux = (*p)->next;
+            (*p)->next = aux->next;
+            q = first;
+            while(cmp((*q)->info,aux->info)<0)
+            {
+                q = &(*q)->next;
+            }
+            aux->next = *q;
+            *q = aux;
+
         }
-        aux = aux->next;
+        else
+            p= &(*p)->next;
     }
-    return 1;
 }
 
 
