@@ -34,7 +34,7 @@ int countItems(const List* pl);
 List* searchNode(const List*, const void*, int(*cmp)(const void*, const void*));
 int insertSorted(List*, const void*, unsigned, int(*cmp)(const void*, const void*), void(*accumulate_item)(void**, unsigned*, const void*, unsigned));
 Node* findMin(List*, int(*cmp)(const void*, const void*));
-int sortList(List*, int(*cmp)(const void*, const void*));
+void sortList(List*, int(*cmp)(const void*, const void*));
 
 int remove_First_Occurrence(List*, const void*, int (*cmp)(const void*, const void*));
 int remove_All_Ocurrences(List*, const void*, int (*cmp)(const void*, const void*));
