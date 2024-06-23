@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1716573088 source:c:\users\nicol\onedrive\escritorio\recursive_stack_fibonacci\dynamic_stack.c
+	"dynamic_stack.h"
+
+1716572721 c:\users\nicol\onedrive\escritorio\recursive_stack_fibonacci\dynamic_stack.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,8 @@
+{()}                           ||| Nothing wrong
+
+{[(()                          ||| Expected ) after )
+
+{[()                           ||| Expected ] after )
+
+{()                            ||| Expected } after )
+

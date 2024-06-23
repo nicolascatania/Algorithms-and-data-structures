@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1716574859 source:c:\users\nicol\onedrive\escritorio\basic_bank_queue_simulation\dynamic_queue.c
+	"dynamic_queue.h"
+
+1716574839 c:\users\nicol\onedrive\escritorio\basic_bank_queue_simulation\dynamic_queue.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1716576985 source:c:\users\nicol\onedrive\escritorio\basic_bank_queue_simulation\main.c
+	"dynamic_queue.h"
+	<time.h>
+

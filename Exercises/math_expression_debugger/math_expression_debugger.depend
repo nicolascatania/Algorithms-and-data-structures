@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1716573088 source:c:\users\nicol\onedrive\escritorio\math_expression_debugger\dynamic_stack.c
+	"dynamic_stack.h"
+
+1716572721 c:\users\nicol\onedrive\escritorio\math_expression_debugger\dynamic_stack.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1716591948 source:c:\users\nicol\onedrive\escritorio\math_expression_debugger\main.c
+	"dynamic_stack.h"
+
