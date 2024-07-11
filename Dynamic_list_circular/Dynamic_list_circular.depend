@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1720721653 source:c:\users\nicol\onedrive\escritorio\dynamic_list_circular\main.c
+	"List.h"
+
+1720728611 c:\users\nicol\onedrive\escritorio\dynamic_list_circular\list.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1720729346 source:c:\users\nicol\onedrive\escritorio\dynamic_list_circular\list.c
+	"List.h"
+
