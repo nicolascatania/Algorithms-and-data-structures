@@ -731,20 +731,27 @@ int deleteInPosition(dsList *p, void* buffer, unsigned buffer_size, int position
 }
 
 /*=============================================Destruction=============================================*/
-void destroyList(dsList* p)
+void destroy_list(dsList* p)
 {
-    dsNode* aux = *p, *del;
-    if(!aux)
+    dsNode* cur, *del;
+    if(!*p)
     {
         return;
     }
-    aux = (*p)->next;
-    do
+    else
     {
-        del = aux;
-        aux = aux->next;
-        free(del->info);
-        free(del);
-    }while(aux != (*p));
-    *p = NULL;
+        cur = (*p)->next;
+        while(cur != *p)
+        {
+            del = cur;
+            cur = cur->next;
+            free(del->info);
+            free(del);
+        }
+
+        free((*p)->info);
+        free((*p));
+        *p = NULL;
+    }
 }
+
