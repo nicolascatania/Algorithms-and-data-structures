@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1721248240 source:c:\users\nicol\onedrive\escritorio\idx_maker_tree\main.c
+	"btree.h"
+
+1721248271 c:\users\nicol\onedrive\escritorio\idx_maker_tree\btree.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"utils.h"
+
+1721247726 c:\users\nicol\onedrive\escritorio\idx_maker_tree\utils.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1721247732 source:c:\users\nicol\onedrive\escritorio\idx_maker_tree\utils.c
+	"utils.h"
+
+1721248306 source:c:\users\nicol\onedrive\escritorio\idx_maker_tree\btree.c
+	"btree.h"
+
+1721247732 source:c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\exercises\idx_maker_tree\utils.c
+	"utils.h"
+
+1721247726 c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\exercises\idx_maker_tree\utils.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1721248576 source:c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\exercises\idx_maker_tree\main.c
+	"btree.h"
+
+1721248650 c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\exercises\idx_maker_tree\btree.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"utils.h"
+
+1721248645 source:c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\exercises\idx_maker_tree\btree.c
+	"btree.h"
+
