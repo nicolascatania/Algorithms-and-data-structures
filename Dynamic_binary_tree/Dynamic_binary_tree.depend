@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1720816073 source:c:\users\nicol\onedrive\escritorio\dynamic_binary_tree\main.c
+	"btree.h"
+	"utils.h"
+
+1720816073 c:\users\nicol\onedrive\escritorio\dynamic_binary_tree\btree.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utils.h"
+
+1720815855 source:c:\users\nicol\onedrive\escritorio\dynamic_binary_tree\btree.c
+	"btree.h"
+
+1720815692 c:\users\nicol\onedrive\escritorio\dynamic_binary_tree\utils.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1720815768 source:c:\users\nicol\onedrive\escritorio\dynamic_binary_tree\utils.c
+	"utils.h"
+
+1721247693 source:c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\data structures\dinamica\dynamic_binary_tree\btree.c
+	"btree.h"
+
+1721248538 c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\data structures\dinamica\dynamic_binary_tree\btree.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"utils.h"
+
+1721247726 c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\data structures\dinamica\dynamic_binary_tree\utils.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1721247391 source:c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\data structures\dinamica\dynamic_binary_tree\main.c
+	"btree.h"
+	"utils.h"
+
+1721247732 source:c:\users\nicol\onedrive\escritorio\college\algoritmos y estructuras de datos\data structures\dinamica\dynamic_binary_tree\utils.c
+	"utils.h"
+
